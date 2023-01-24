@@ -3,10 +3,12 @@ import Nav from "./Nav"
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center 
-     bg-red-500 text-white p-2">
+    <div className=" 
+     bg-red-500 text-white py-2">
+      <div className="container mx-auto flex justify-center items-center">
       <Logo />
-      <Nav />
+      </div>
+
     </div>
   )
 }

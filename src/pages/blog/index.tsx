@@ -1,11 +1,17 @@
+import BlogPost from "@/components/blog/BlogPost";
 import React from "react";
 
-type Props = {
-  location: Object;
-};
+const BlogText = {
+  title: "Blog Post Title",
+  text: "Blog post content"
 
-const Blog = (props: Props) => {
-  return <div>Blog</div>;
+}
+
+
+const Blog = () => {
+  return <div>
+    <BlogPost {...BlogText} />
+  </div>;
 };
 
 export default Blog;
