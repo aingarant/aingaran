@@ -5,10 +5,12 @@ import Image from 'next/image'
 const ProfileImage = () => {
   return (
     <Image
-      src="https://avatars.githubusercontent.com/u/43797754?v=4"
+      src="/assets/img/aingaran.png"
       alt="Profile image"
       width={460}
       height={460}
+      className="rounded-full mx-auto mt-24"
+  
     />
   )
 }

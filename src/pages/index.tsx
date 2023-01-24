@@ -1,4 +1,5 @@
 import Profile from "@/components/Profile";
+import ProfileImage from "@/components/ProfileImage";
 import Head from "next/head";
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <main>
         <div className="container  mx-auto my-2 text-center">
        
- 
+ <ProfileImage />
         
         </div>
 

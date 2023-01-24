@@ -4,8 +4,5 @@ const nextConfig = {
 }
  
 
-module.exports = {nextConfig,
-  images: {
-    domains: ['https://avatars.githubusercontent.com'],
-  },
-}
+module.exports = nextConfig
+
